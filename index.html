@@ -1,0 +1,96 @@
+<!--
+Student Name: Ahmed Mohamed Ahmed Basyoni
+Student ID: 225110124
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | Ahmed Mohamed Ahmed Basyoni</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a class="brand" href="#home">Ahmed Mohamed Ahmed Basyoni</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero" id="about">
+            <div class="hero-text">
+                <p class="eyebrow">HELLO, I'M</p>
+                <h1>Ahmed Mohamed Ahmed Basyoni</h1>
+                <h2>Computer Science Student</h2>
+                <p>
+                    I am a computer science student who enjoys learning new
+                    technologies, solving problems, and building useful projects.
+                    I am currently improving my skills in web development and programming.
+                </p>
+                <a class="primary-link" href="#contact">Get in touch</a>
+            </div>
+            <img class="profile-photo" src="images/me.jpg" alt="Profile photo of Ahmed">
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I LIKE</p>
+                <h2>My Skills & Interests</h2>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Programming</h3>
+                    <p>I enjoy learning programming concepts and writing simple, clear code.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">🧪</div>
+                    <h3>Software Testing</h3>
+                    <p>I am interested in checking software quality and finding bugs.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">📚</div>
+                    <h3>Continuous Learning</h3>
+                    <p>I like learning new skills and improving myself step by step.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">SAY HELLO</p>
+                <h2>Contact Me</h2>
+                <p>Leave your name and email address below.</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+                <p class="form-note">This is a front-end practice form; it does not send data to a server.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Ahmed Mohamed. All rights reserved.</p>
+    </footer>
+
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        Toggle Dark Mode
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
